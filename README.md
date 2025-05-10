@@ -1,70 +1,96 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🗺️ DiMaps (Disability Maps)
 
-## Available Scripts
+**DiMaps** is a web-based accessibility navigation app designed to help users with disabilities navigate public spaces such as parks, malls, and university campuses. It highlights accessible paths, ramps, entrances, and washrooms on an interactive map and provides voice navigation support for visually impaired users.
 
-In the project directory, you can run:
 
-### `npm start`
+## 🏁 Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get a local copy of the project up and running, follow these steps.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ✅ Prerequisites
 
-### `npm test`
+- [Node.js](https://nodejs.org/) (v16 or later)
+- npm (comes with Node.js)
+- Git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 💻 Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/your-username/DiMaps.git
+cd DiMaps
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Install Dependencies
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Run the Application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The app will run in development mode at:  
+[http://localhost:3000](http://localhost:3000)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## ✨ Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Accessibility Mapping**: Highlights accessible washrooms, ramps, elevators, and entrances.
+- **Interactive GIS Map**: Uses Leaflet or Mapbox for real-time location and navigation.
+- **Voice Navigation**: Guides users with visual impairments using speech synthesis.
+- **Search Functionality**: Allows users to search for nearby accessible facilities.
+- **Responsive Design**: Works on desktop, tablet, and mobile devices.
+- **User-Centric Design**: Built with a focus on accessibility and usability.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📦 Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **React.js**: Frontend framework
+- **Leaflet.js**: Interactive maps
+- **react-leaflet**: React wrapper for Leaflet
+- **Web Speech API**: For voice navigation
+- **Bootstrap** or **Tailwind CSS** (optional): For styling
+- **Font Awesome**: For icons
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Usage
 
-### Making a Progressive Web App
+1. Open the app in your browser at `http://localhost:3000`.
+2. Use the map to explore public spaces.
+3. Click icons to view accessibility details.
+4. Enable voice navigation to receive spoken directions.
+5. (Coming Soon) Report missing accessibility features.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions are what make the open-source community so powerful! Your contributions are welcome.
 
-### Deployment
+1. Fork the repository  
+2. Create your feature branch  
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes  
+   ```bash
+   git commit -m 'Add AmazingFeature'
+   ```
+4. Push to the branch  
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a pull request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
