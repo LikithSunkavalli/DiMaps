@@ -7,7 +7,7 @@ import {
   DirectionsRenderer,
 } from "@react-google-maps/api";
 
-const MAP_API_KEY = "AIzaSyD7JXglXb4-CpjqCNVBTihjXhGwvWHxIOQ"; // Replace with a valid API key
+const MAP_API_KEY = ""; // Replace with a valid API key
 
 const containerStyle = {
   width: "100%",
